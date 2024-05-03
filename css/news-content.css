@@ -1,0 +1,115 @@
+.main {
+    position: relative;
+    background-color: var(--main-background-color);
+    width: 100%;
+    min-height: 500px;
+    width: 97%;
+    margin: 20px;
+    margin-top: 17px;
+    border-radius: 15px;
+    box-shadow: var(--main-box-shadow);
+    overflow: hidden;
+    padding: 50px;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-data-wraper {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 3px var(--lite-grey-2);
+    gap: 50px;
+}
+
+.data-box {
+    width: auto;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--grey-2-color);
+    user-select: none;
+    cursor: pointer;
+}
+
+.news-main-image-wraper {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    max-height: 400px;
+}
+
+.news-main-image {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.title-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    max-height: 100px;
+    font-size: 18px;
+}
+
+.title-box i {
+    font-size: 50px;
+    padding-top: 23px;
+    margin-left: 15px;
+}
+
+.news-text-content {
+    width: 70%;
+    height: auto;
+    /* background-color: aqua; */
+    overflow: hidden;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.news-text-content h1,
+.news-text-content h2,
+.news-text-content h3,
+.news-text-content h4,
+.news-text-content h5,
+.news-text-content h6 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.news-text-content img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.see-more-news {
+    width: 70%;
+    height: 70px;
+    background: linear-gradient(to left, #64e8de, #8a64eb);
+    margin-top: 30px;
+    border-radius: 100px;
+    user-select: none;
+    color: var(--white-color);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

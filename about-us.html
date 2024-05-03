@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"> <!-- swiper css file -->
+    <link rel="stylesheet" href="css/aos.css"> <!-- aos css file -->
+    <link rel="stylesheet" href="css/plyr.css"> <!-- plyr css file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="css/header.css"> <!-- header css file -->
+    <link rel="stylesheet" href="css/footer.css"> <!-- footer css file -->
+    <link rel="stylesheet" href="css/responsive.css"> <!-- responsive css file -->
+    <link rel="stylesheet" href="css/about-us.css"> <!-- about us style css file -->
+    <link rel="stylesheet" href="css/style.css"> <!-- order style css file -->
+    <link rel="shortcut icon" href="img/doc-logo.png" type="image/x-icon">
+    <title>هیپوت - درباره ما</title>
+</head>
+
+<body>
+
+    <div class="web-loader">
+        <img src="img/loader.gif" alt="loader">
+        <span>درحال بارگیری سایت</span>
+    </div>
+
+    <div class="conteiner">
+
+        <!-- header logo -->
+        <nav class="header">
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+            </div>
+
+            <!-- header list in pc -->
+            <ul>
+                <li><a href="index.html" class="main-list-menu">خانه</a></li>
+                <li><a href="index.html#plans">سایت</a></li>
+                <li><a href="news.html">اخبار</a></li>
+                <li><a href="videos.html">ویدیو</a></li>
+                <li><a href="about-us.html">درباره ما</a></li>
+            </ul>
+
+            <div class="search-btn">
+                <i class="bi bi-search"></i>
+            </div>
+
+            <div class="alarm-btn">
+                <i class="bi bi-bell"></i>
+            </div>
+
+            <div class="open-menu-btn">
+                <i class="bi bi-list"></i>
+            </div>
+        </nav>
+
+        <!-- search box start -->
+        <div class="search-display hide">
+            <i class="bi bi-x-lg close-search-btn"></i>
+            <input type="text" placeholder="دنبال چی میگردی؟">
+            <h3 class="search-info">سرچ با زدن دکمه Enter یا Go در موبایل</h3>
+        </div>
+        <!-- end -->
+
+        <!-- menu in mobile start -->
+        <div class="mobile-menu hide">
+            <i class="bi bi-x-lg close-menu-btn"></i>
+            <h1 class="mobile-menu-title">Menu Panel</h1>
+            <ul>
+                <li class="main-list-mobile-menu"><a href="index.html">خانه</a></li>
+                <li><a href="news.html">اخبار</a><i class="mobile-menu-row-icon bi bi-caret-left-fill"></i></li>
+                <li><a href="videos.html">ویدیو</a><i class="mobile-menu-row-icon bi bi-caret-left-fill"></i></li>
+                <li><a href="about-us.html">درباره ما</a><i class="mobile-menu-row-icon bi bi-caret-left-fill"></i></li>
+            </ul>
+        </div>
+        <!-- end -->
+
+        <!-- main start -->
+        <div id="about-us-wrapper" class="main about-us-main">
+            <!-- <h2><strong>رسالت هیپوت</strong></h2><p>قبل از هر چیزی، یک دوره آموزشی باید با زبانی کاملا ساده و شیوا گفته شده باشد و به تمام و جزییات و نکاتی که ممکن است برای مخاطب سوال به وجود آورد بپردازد. این نکته در عین سادگی‌بسیار مهم است چرا که قدم های بعدی آموزش و یادگیری شما به درک مفاهیم پایه بستگی دارد و سعی کردیم که این کار را به بهترین نحو انجام دهیم.</p><h2><strong>ویژگی های آموزش ما</strong></h2><h3><strong>زبان ساده و روان</strong></h3><p>امروزه انتخاب یک دوره آموزشی کار بسیار سختی است، چرا که بی نهایت دوره در اینترنت پیدا میشود که حتی به کوچکترین استاندارد های یک دوره آموزشی مناسب دقت نکرده اند. ما در هیپوت سعی میکنیم با رعایت این استاندارد ها و ارائه دوره‌ هایی با کیفیت و کامل مسیر پیشرفت شمارو هموار بکنیم، این دوره ها حاصل سال ها تجربه کار برنامه نویسی و آموزش آن است که به صورت یکجا درآمده تا در دسترس شما قرار گیرد و بتوانید بهترین نتیجه را از آن بگیرید.</p><h3><strong>از صفر تا پیشرفته</strong></h3><p>در قدم بعدی سعی کردیم مباحث را از صفر (به صورتی که نیاز به هیچ پیشنیازی نداشته باشید) تا پیشرفته پوشش دهیم تا فقط با شرکت در یک دوره به سطحی مناسب برای ورود به بازار کار برسید.</p><h3><strong>پروژه محور</strong></h3><p>بعد از یادگیری مفاهیم، چیزی که باعث درک و تسلط شما میشود انجام پروژه و تمرین است که در تمام دوره های هیپوت تعداد زیادی تمرین و پروژه های پیشرفته حل شده تا دید بسیار دقیقی از برنامه به شما داده شود.</p><h3><strong>پشتیبانی دائمی</strong></h3><p>هر کسی در ابتدای راه برنامه نویسی با یک سری سوالات و ابهامات رو به رو میشود، چه فنی و چه غیر فنی. این سوالات ممکن است روز ها و هفته ها از وقت شما را تلف کند اما با وجود یک برنامه نویس حرفه‌ای و پشتیبان در کنار شما خیلی زود این ابهامات کنار زده خواهد شد و پیشرفت سریع تری خواهید داشت، به همین دلیل دوره های‌ هیپوت پشتیبانی دائمی دارند تا در تمام مراحل یادگیری، استخدام و بعد از استخدام کنار شما باشیم.</p><h3><strong>آپدیت</strong></h3><p>برنامه نویسی علمی‌در حال پیشرفت است و ما سعی کرده این تا دوره ها را آپدیت نگه داریم به صورتی که آخرین ورژن هر تکنولوژی در داخل دوره ها پوشش داده شده است تا همیشه در لبه تکنولوژی بمانید.</p><h3><strong>وبینار های هفتگی</strong></h3><p>مسیر یادگیری پستی و بلندی های زیادی دارد، در این مسیر با هم هستیم و با برگزاری وبینار های هفتگی دور هم جمع میشویم و از مشکلات و چالش ها حرف میزنیم و برایشان راه حل پیدا میکنیم. تجربه ثابت کرده که وبینار های هفتگی تاثیر بسیار زیادی بر روی انگیزه و انرژی دانشجو ها برای ادامه یادگیری میگذارد.</p><p>و کلی برنامه مثبت دیگر که در آینده اجرا خواهد شد و مختص هیپوت است.</p> -->
+        </div>
+        <!-- end -->
+
+        <!-- footer start -->
+        <div class="footer">
+
+            <div class="footer-box about-box">
+                <h2>هیپوت که بود و چه کرد؟</h2>
+                <p>از سال ۱۳۹۴ شروع به‌کار کردیم و هدف ما کمک به شما برای ساخت یک کسب‌و‌کار اینترنتی موفق است. اما چطور؟
+                    بهترین سایت‌ساز دنیا را ساخته‌ایم که بیش از ۲۵۰۰ وب‌سایت از آن استفاده می‌کنند. هم‌چنین بیش از ۲۰۰۰
+                    مقاله اخباری رایگان منتشر کرده‌ایم.</p>
+                <a href="">ادامه داستان...</a>
+            </div>
+            <div class="footer-box suport-box">
+                <h2>پشتیبانی سایت!</h2>
+                <p>تاکنون بیش از ۱۶۰۰۰۰ درخواست پشتیبانی را به خوبی و خوشی پاسخ داده‌ایم و با تمام وجود مشکل ها رو حل
+                    کردیم. اگر موقع کار با سایت یا خدمات دیگر ما سوال یا مشکلی دارید، روی پشتیبانی ما حساب کنید.</p>
+                <a href=""><button>پشتیبانی</button></a>
+            </div>
+            <div class="footer-box social-box">
+                <a href="" class="social-icon-box instagram-box">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="" class="social-icon-box telegram-box">
+                    <i class="bi bi-telegram"></i>
+                </a>
+                <a href="" class="social-icon-box email-box">
+                    <i class="bi bi-envelope-fill"></i>
+                </a>
+            </div>
+
+            <span class="copy-right">
+                <i class="bi bi-c-circle copy-right-icon"></i>
+                <span>تمامی حقوق برای سایت <a href="#">هیپوت</a> محفوظ است.</span>
+            </span>
+
+        </div>
+        <!-- end -->
+
+    </div>
+
+
+        <script src="js/sweetalert2@11.js"></script> <!-- sweet alert script file -->
+    <script src="js/axios.min.js"></script> <!-- axios script file -->
+    <script src="js/script.js"></script> <!-- order script file -->
+    <script src="js/about-us-page.js"></script> <!-- about us page script file -->
+</body>
+
+</html>

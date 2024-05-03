@@ -1,0 +1,106 @@
+/* footer style start */
+.footer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--main-background-color);
+    min-height: 300px;
+    width: 97%;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: var(--main-box-shadow);
+    overflow: hidden;
+    height: auto;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 50px;
+    user-select: none;
+}
+
+.footer-box {
+    max-width: 390px;
+    min-width: 250px;
+    height: 300px;
+    /* background-color: #2a9d8f; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.suport-box button {
+    width: 50%;
+    font-weight: bold;
+    border: none;
+    background-color: var(--yellow-color);
+    color: var(--grey-color);
+    padding: 15px;
+    border-radius: 1500px;
+    margin-right: 50%;
+    cursor: pointer;
+}
+
+.about-box, .suport-box {
+    align-items: unset;
+    text-align: justify;
+}
+
+.about-box h2, .suport-box h2 {
+    color: var(--them-color);
+}
+
+.about-box a {
+    text-decoration: none;
+    color: var(--them-color);
+    font-weight: bold;
+}
+
+.about-box p, .suport-box p {
+    width: 100%;
+}
+
+.social-box {
+    min-width: 300px;
+}
+
+.social-icon-box {
+    width: 90%;
+    height: 25%;
+    background-color: #424242;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1500px;
+    color: var(--white-color);
+    font-size: 40px;
+}
+
+.instagram-box {
+    background: linear-gradient(90deg, #BA68C8, #F06292, #ffdf76);
+}
+
+.telegram-box {
+    background: linear-gradient(90deg, #41ABE3, #c8ecff);
+}
+
+.email-box {
+    background: linear-gradient(90deg, #ff3737, #ffa9a9);
+}
+
+.copy-right {
+    position: absolute;
+    font-weight: bold;
+    right: 13px;
+    bottom: 10px;
+    color: var(--grey-2-color);
+    user-select: none;
+}
+
+.copy-right a {
+    text-decoration: none;
+    color: var(--them-color);
+}
+/* end */

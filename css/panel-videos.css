@@ -1,0 +1,206 @@
+:root {
+    --them-color: #7E57C2;
+    --plyr-color-main: var(--them-color);
+    --light-blue: #E9ECEF;
+    --white-color: #fff;
+    --yellow-color: #FFD14C;
+    --main-background-color: #ffffff;
+    --body-background-color: #ebebeb;
+    --grey-color: #424242;
+    --grey-2-color: #666;
+    --fifty-black: #c1c1c1;
+    --lite-grey: #e9e9e9;
+    --lite-grey-2: #c0c0c0;
+    --normal--bg: #ececec;
+    --pro-bg: #eaf5ff;
+    --gold-bg: #fff6d1;
+    --search-box-bg-color: #000000ee;
+    --search-box-bg-second-color: #ffffff15;
+    --search-box-text-color: #fff;
+    --main-box-shadow: 0 0 12px 5px #00000010;
+    --lite-grey: #d6d6d6;
+    --red-color: #ff4444;
+}
+
+.add-video {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    /* background-color: #c0c0c0; */
+    margin-bottom: 50px;
+}
+
+.data {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    /* background-color: #fff; */
+}
+
+.add-video-btn {
+    border: none;
+    background-color: var(--them-color);
+    font-weight: bold;
+    padding: 10px 50px;
+    color: var(--white-color);
+    border-radius: 500px;
+    cursor: pointer;
+    margin-left: 17px;
+    margin-top: 5px;
+}
+
+.add-video-btn:hover {
+    opacity: 70%;
+}
+
+.data-box {
+    background-color: var(--fifty-black);
+    border: none;
+    padding: 10px;
+    width: 24%;
+    border-radius: 10px;
+    height: 50px;
+    background-color: var(--lite-grey);
+    font-weight: bold;
+    box-shadow: var(--main-box-shadow);
+}
+
+.data-box:focus {
+    outline: 1px solid var(--grey-2-color);
+}
+
+.btn-and-caption {
+    /* background-color: #424242; */
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 25px;
+}
+
+.textarea-caption-box {
+    max-width: 85%;
+    width: 85%;
+    margin-right: 5px;
+}
+
+.videos-list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    /* background-color: #ccc; */
+    margin-bottom: 50px;
+}
+
+.video-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 170px;
+    background-color: var(--lite-grey);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+
+.video-wrapper {
+    width: 280px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+    opacity: 100%;
+    position: relative;
+    background-color: #424242;
+}
+
+.video-wrapper:hover {
+    opacity: 80%;
+}
+
+.video-wrapper video {
+    direction: ltr;
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.list-item-data {
+    position: relative;
+    width: 570px;
+    height: 150px;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.content.biger .list-item-data {
+    width: 800px;
+}
+
+.list-item-data h2 {
+    color: var(--them-color);
+    margin-bottom: 7px;
+}
+
+.list-item-data span {
+    color: var(--them-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.list-item-data p {
+    height: 80px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.edit-and-remove-btns {
+    width: 150px;
+    /* background-color: #424242; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-and-remove-btns button {
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 13px;
+    border: none;
+    border-radius: 1000px;
+    cursor: pointer;
+    background-color: var(--grey-2-color);
+    color: var(--white-color);
+}
+
+.edit-and-remove-btns button:hover {
+    opacity: 70%;
+}
+
+.edit-and-remove-btns .remove {
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
+
+.edit-and-remove-btns button i {
+    font-size: 16px;
+    margin-left: 5px;
+}

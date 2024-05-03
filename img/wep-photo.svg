@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="450" viewBox="0 0 650 450">
+  <g id="ahura-template-rtl" transform="translate(-361 -146)">
+    <rect id="main" width="650" height="450" rx="30" transform="translate(361 146)" fill="#fdfdfd"/>
+    <path id="sidebar" d="M0,0H175a30,30,0,0,1,30,30V420a30,30,0,0,1-30,30H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(806 146)" fill="#fafafa"/>
+    <g id="options" transform="translate(0 64.86)">
+      <g id="Group_1" data-name="Group 1">
+        <rect id="sidebar-2" data-name="sidebar" width="70" height="9" rx="4.5" transform="translate(906 182)" fill="#cecece"/>
+        <rect id="sidebar-3" data-name="sidebar" width="10" height="10" rx="5" transform="translate(984 181)" fill="#cecece"/>
+      </g>
+      <g id="Group_2" data-name="Group 2" transform="translate(0 20)">
+        <rect id="sidebar-4" data-name="sidebar" width="93" height="9" rx="4.5" transform="translate(883 182)" fill="#cecece"/>
+        <rect id="sidebar-5" data-name="sidebar" width="10" height="10" rx="5" transform="translate(984 181)" fill="#cecece"/>
+      </g>
+      <g id="Group_3" data-name="Group 3" transform="translate(0 40)">
+        <rect id="sidebar-6" data-name="sidebar" width="93" height="9" rx="4.5" transform="translate(883 182)" fill="#cecece"/>
+        <rect id="sidebar-7" data-name="sidebar" width="10" height="10" rx="5" transform="translate(984 181)" fill="#cecece"/>
+      </g>
+      <g id="Group_10" data-name="Group 10" transform="translate(0 198)" opacity="0.397">
+        <g id="Group_9" data-name="Group 9">
+          <rect id="sidebar-8" data-name="sidebar" width="70" height="9" rx="4.5" transform="translate(906 182)" fill="#cecece"/>
+          <rect id="sidebar-9" data-name="sidebar" width="10" height="10" rx="5" transform="translate(984 181)" fill="#cecece"/>
+        </g>
+        <g id="Group_8" data-name="Group 8" transform="translate(0 20)">
+          <rect id="sidebar-10" data-name="sidebar" width="93" height="9" rx="4.5" transform="translate(883 182)" fill="#cecece"/>
+          <rect id="sidebar-11" data-name="sidebar" width="10" height="10" rx="5" transform="translate(984 181)" fill="#cecece"/>
+        </g>
+        <g id="Group_14" data-name="Group 14" transform="translate(0 20)">
+          <rect id="sidebar-12" data-name="sidebar" width="93" height="9" rx="4.5" transform="translate(883 182)" fill="#cecece"/>
+          <rect id="sidebar-13" data-name="sidebar" width="10" height="10" rx="5" transform="translate(984 181)" fill="#cecece"/>
+        </g>
+        <g id="Group_7" data-name="Group 7" transform="translate(0 40)">
+          <rect id="sidebar-14" data-name="sidebar" width="93" height="9" rx="4.5" transform="translate(883 182)" fill="#cecece"/>
+          <rect id="sidebar-15" data-name="sidebar" width="10" height="10" rx="5" transform="translate(984 181)" fill="#cecece"/>
+        </g>
+        <g id="Group_13" data-name="Group 13" transform="translate(0 40)">
+          <rect id="sidebar-16" data-name="sidebar" width="93" height="9" rx="4.5" transform="translate(883 182)" fill="#cecece"/>
+          <rect id="sidebar-17" data-name="sidebar" width="10" height="10" rx="5" transform="translate(984 181)" fill="#cecece"/>
+        </g>
+      </g>
+      <g id="Group_4" data-name="Group 4" transform="translate(0 7)">
+        <g id="Group_5" data-name="Group 5">
+          <rect id="sidebar-18" data-name="sidebar" width="50" height="50" rx="7" transform="translate(944 248)" fill="#cecece"/>
+          <rect id="sidebar-19" data-name="sidebar" width="50" height="50" rx="7" transform="translate(886 248)" fill="#cecece"/>
+          <rect id="sidebar-20" data-name="sidebar" width="50" height="50" rx="7" transform="translate(828 248)" fill="#cecece"/>
+        </g>
+      </g>
+      <g id="Group_6" data-name="Group 6" transform="translate(0 -200)">
+        <rect id="sidebar-21" data-name="sidebar" width="77" height="30" rx="5" transform="translate(828 522)" fill="#cecece"/>
+        <rect id="sidebar-22" data-name="sidebar" width="77" height="30" rx="5" transform="translate(917 522)" fill="#cecece"/>
+      </g>
+      <g id="Group_15" data-name="Group 15" transform="translate(0 -79)" opacity="0.4">
+        <rect id="sidebar-23" data-name="sidebar" width="77" height="30" rx="5" transform="translate(828 522)" fill="#cecece"/>
+        <rect id="sidebar-24" data-name="sidebar" width="77" height="30" rx="5" transform="translate(917 522)" fill="#cecece"/>
+      </g>
+      <g id="text" opacity="0.5">
+        <path id="Path_1" data-name="Path 1" d="M-62.9,0q-2.22,0-3.34-.04A12.474,12.474,0,0,1-68-.2a5.407,5.407,0,0,1-1.22-.38,3.42,3.42,0,0,1-1.61-1.36,3.908,3.908,0,0,1-.55-2.08,5.763,5.763,0,0,1,.18-1.4l.76-2.92L-68-7.6l-.78,3.02a2.286,2.286,0,0,0-.1.58.735.735,0,0,0,.16.49,1.278,1.278,0,0,0,.5.33,4.3,4.3,0,0,0,1.42.27q1,.07,4.1.07h.02q3.02,0,4-.08a5.781,5.781,0,0,0,1.46-.26,1.171,1.171,0,0,0,.5-.35.919.919,0,0,0,.16-.57,2.955,2.955,0,0,0-.12-.76l-.76-2.78L-55-8.36l.76,2.78a5.8,5.8,0,0,1,.2,1.52,4,4,0,0,1-.55,2.11A3.4,3.4,0,0,1-56.2-.58a5.334,5.334,0,0,1-1.26.38,13.782,13.782,0,0,1-1.83.16Q-60.44,0-62.68,0h-.22Zm-3.06-9.76h2.34v2.32h-2.34Zm4.1,0h2.34v2.32h-2.34ZM-47.48,0a5.016,5.016,0,0,1-2.29-.44,2.659,2.659,0,0,1-1.25-1.43,8.365,8.365,0,0,1-.48-2.67l-.36-9.2,2.52-.12.36,9.32a6.165,6.165,0,0,0,.13,1.18.579.579,0,0,0,.37.42,3.384,3.384,0,0,0,1,.1h.2l.16,1.42L-47.28,0Zm11.5,0a3.349,3.349,0,0,1-2.68-1.14,2.754,2.754,0,0,1-.97.91A2.522,2.522,0,0,1-40.88.1a2.663,2.663,0,0,1-1.2-.3l-2.24-1.16A3.735,3.735,0,0,1-47.26,0h-.22V-2.84h.22a1.847,1.847,0,0,0,.89-.21,1.572,1.572,0,0,0,.61-.57l1.52-2.98a3.2,3.2,0,0,1,1.27-1.34,3.515,3.515,0,0,1,1.79-.48,3.393,3.393,0,0,1,1.64.4,3.486,3.486,0,0,1,1.43,1.36,3.865,3.865,0,0,1,.47,1.92,5.525,5.525,0,0,1-.12,1.12,1.493,1.493,0,0,0,.68.57,2.633,2.633,0,0,0,1.1.21l.16,1.42Zm-4.58-2.62a.372.372,0,0,0,.13.06q.03,0,.07-.08l.24-.6a2.732,2.732,0,0,0,.26-1.12,1.583,1.583,0,0,0-.18-.77,1.123,1.123,0,0,0-.52-.49,1.2,1.2,0,0,0-.58-.14,1.266,1.266,0,0,0-.69.21,1.47,1.47,0,0,0-.53.63l-.56,1.12Zm4.2-.22h3.52a1.962,1.962,0,0,0,1.06-.2.7.7,0,0,0,.24-.68v-.04l-.22-2.46,2.52-.24L-29.02-4v.12a1.272,1.272,0,0,0,.33.84,1.65,1.65,0,0,0,.97.2l.16,1.42L-27.72,0a3.807,3.807,0,0,1-2.52-.8,4.086,4.086,0,0,1-2.6.8h-3.52Zm-1.22,4.66h2.34V4.14h-2.34Zm4.1,0h2.34V4.14h-2.34ZM-14.52,0a4.62,4.62,0,0,1-2.66-.92,4.109,4.109,0,0,1-1.2.68A3.894,3.894,0,0,1-19.72,0h-8.2V-2.84h1.86l.56-.78-.38-10.12,2.52-.12.28,7.14a6.076,6.076,0,0,1,1.57-1.4,3.491,3.491,0,0,1,1.79-.46,3.869,3.869,0,0,1,2.1.59,4.175,4.175,0,0,1,1.48,1.6,4.7,4.7,0,0,1,.54,2.25,3.788,3.788,0,0,1-.12.96,2.206,2.206,0,0,0,1.2.34h.28l.16,1.42L-14.24,0Zm-5.12-2.84a1.481,1.481,0,0,0,1.08-.41,1.356,1.356,0,0,0,.42-1.01,1.446,1.446,0,0,0-.42-1.05,1.444,1.444,0,0,0-1.08-.43,1.578,1.578,0,0,0-.97.34,10.719,10.719,0,0,0-1.27,1.24l-1.24,1.32Zm-1.42-10.52h2.62v2.64h-2.62Zm6.62,10.52h1.26a1.962,1.962,0,0,0,1.06-.2.7.7,0,0,0,.24-.68v-.04l-.22-2.46,2.52-.24L-9.36-4v.04a1.342,1.342,0,0,0,.32.89,1.525,1.525,0,0,0,.98.23l.16,1.42L-8.06,0a3.807,3.807,0,0,1-2.52-.8,4.086,4.086,0,0,1-2.6.8h-1.26Zm1.46-8.18h2.62V-8.4h-2.62Zm4.72,8.18H-5.2a2.542,2.542,0,0,0,1.25-.24.892.892,0,0,0,.41-.84,2.739,2.739,0,0,0-.12-.74l-.78-2.98,2.42-.72.84,3.12a5.22,5.22,0,0,1,.2,1.4,3.77,3.77,0,0,1-.54,2.03A3.571,3.571,0,0,1-3.02-.47,4.894,4.894,0,0,1-5.2,0H-8.26Zm.64-9.64H-5.3v2.34H-7.62Zm4.1,0H-1.2v2.34H-3.52Z" transform="translate(991 154)" fill="#707070"/>
+      </g>
+    </g>
+    <g id="content" transform="translate(0 30)">
+      <g id="boxes">
+        <rect id="sidebar-25" data-name="sidebar" width="135" height="98" rx="10" transform="translate(644 292)" fill="#cecece" opacity="0.65"/>
+        <rect id="sidebar-26" data-name="sidebar" width="242" height="98" rx="10" transform="translate(388 292)" fill="#cecece" opacity="0.65"/>
+      </g>
+      <g id="boxes-2" data-name="boxes" transform="translate(0 123)">
+        <rect id="sidebar-27" data-name="sidebar" width="135" height="98" rx="10" transform="translate(388 292)" fill="#cecece" opacity="0.65"/>
+        <rect id="sidebar-28" data-name="sidebar" width="242" height="98" rx="10" transform="translate(537 292)" fill="#cecece" opacity="0.65"/>
+      </g>
+      <g id="firstBox">
+        <rect id="sidebar-29" data-name="sidebar" width="391" height="98" rx="10" transform="translate(388 170)" fill="#5943b2"/>
+        <rect id="sidebar-30" data-name="sidebar" width="78" height="11" rx="5.5" transform="translate(607 208)" fill="#fff" opacity="0.7"/>
+        <rect id="sidebar-31" data-name="sidebar" width="186" height="5" rx="2.5" transform="translate(499 226)" fill="#fff" opacity="0.7"/>
+        <g id="text-2" data-name="text" opacity="0.8">
+          <path id="Path_2" data-name="Path 2" d="M-52.832-17.862l3.3-.156.676,17.966L-52.13.1Zm4.5,20.956,1.612-.468a8.784,8.784,0,0,0,2.587-1.014A1.807,1.807,0,0,0-43.394.026a5.494,5.494,0,0,0-.052-.6l-1.04-7.462,3.25-.494.754,5.434.286,2.08q.1.936.1,1.3a4.947,4.947,0,0,1-1.43,3.757,9.961,9.961,0,0,1-4.342,2.145l-1.612.468Zm12.3-.026q3.042-.624,4.264-.975a4.528,4.528,0,0,0,1.729-.806A1.569,1.569,0,0,0-29.562,0h-2.782A4.791,4.791,0,0,1-36-1.443,5.425,5.425,0,0,1-37.362-5.33,6.387,6.387,0,0,1-36.7-8.2a5.49,5.49,0,0,1,1.846-2.145,4.582,4.582,0,0,1,2.639-.806,4.7,4.7,0,0,1,2.613.767,5.746,5.746,0,0,1,1.924,2.132,8.239,8.239,0,0,1,.923,3.107l.156,1.456h1.482l.208,1.846L-25.116,0H-26.26a5.185,5.185,0,0,1-.871,3.25,6.2,6.2,0,0,1-2.8,1.937,35.266,35.266,0,0,1-5.46,1.469Zm1.976-8.4a1.748,1.748,0,0,0,.377,1.248,1.831,1.831,0,0,0,1.339.39h2.418l-.1-1.066a3.886,3.886,0,0,0-.715-2.015,1.748,1.748,0,0,0-1.417-.689,1.71,1.71,0,0,0-1.391.611A2.3,2.3,0,0,0-34.06-5.33Zm8.684,1.638h2.184a5.031,5.031,0,0,1-1.2-3.328,5.372,5.372,0,0,1,.52-2.288A5.055,5.055,0,0,1-22-11.466l1.066-2.288,9.178,4.836a4.779,4.779,0,0,1,2,1.911,5.3,5.3,0,0,1,.728,2.691A4.971,4.971,0,0,1-9.49-2.21,5.034,5.034,0,0,1-11.31-.1,4.57,4.57,0,0,1-13.832.65a4.521,4.521,0,0,1-2-.442l-2.808-1.3A11.912,11.912,0,0,1-23.79,0h-1.586Zm4.628-4.16a1.508,1.508,0,0,0-.208.806,1.417,1.417,0,0,0,.234.78,1.723,1.723,0,0,0,.7.6l1.352.676a3.56,3.56,0,0,0,.884-1.248,1.779,1.779,0,0,0,.156-.7,1.733,1.733,0,0,0-.221-.845,1.609,1.609,0,0,0-.637-.637l-.1-.052a1.72,1.72,0,0,0-.78-.182,1.523,1.523,0,0,0-.806.221A1.609,1.609,0,0,0-20.748-7.852Zm6.24,4.914a1.835,1.835,0,0,0,.728.156A1.591,1.591,0,0,0-12.961-3a1.362,1.362,0,0,0,.559-.611,1.436,1.436,0,0,0,.156-.65,1.487,1.487,0,0,0-.247-.806,1.744,1.744,0,0,0-.715-.624l-1.17-.6a5.354,5.354,0,0,1-.442,1.56,8.075,8.075,0,0,1-.754,1.274ZM-5.8-17.862l3.3-.156L-1.82-.052-5.1.1Z" transform="translate(755 227)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

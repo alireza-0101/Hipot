@@ -1,0 +1,111 @@
+:root {
+    --them-color: #7E57C2;
+    --plyr-color-main: var(--them-color);
+    --light-blue: #E9ECEF;
+    --white-color: #fff;
+    --yellow-color: #FFD14C;
+    --main-background-color: #ffffff;
+    --body-background-color: #ebebeb;
+    --grey-color: #424242;
+    --grey-2-color: #666;
+    --fifty-black: #c1c1c1;
+    --lite-grey: #e9e9e9;
+    --lite-grey-2: #c0c0c0;
+    --normal--bg: #ececec;
+    --pro-bg: #dddddd;
+    --gold-bg: linear-gradient(45deg,#ffdc5f,#ffd447);
+    --search-box-bg-color: #000000ee;
+    --search-box-bg-second-color: #ffffff15;
+    --search-box-text-color: #fff;
+    --main-box-shadow: 0 0 12px 5px #00000010;
+}
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/eot/IRANSansWeb.eot');
+	src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+*,
+input {
+    margin: 0;
+    padding: 0;
+    font-family: IRANSans;
+    box-sizing: border-box;
+    transition: .7s;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+::selection {
+    background-color: var(--them-color);
+    color: var(--white-color);
+}
+
+body {
+    width: 100%;
+    background-color: var(--body-background-color);
+    direction: rtl;
+    overflow-x: hidden;
+}
+
+.web-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--white-color);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.web-loader img {
+    width: 150px;
+}
+
+.web-loader span {
+    font-weight: bold;
+    color: var(--grey-2-color);
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+@keyframes alarm {
+
+    0% {
+        transform: rotate(40deg);
+        background-color: var(--fifty-black);
+    }
+
+    50% {
+        transform: rotate(-40deg);
+        background-color: var(--grey-2-color);
+    }
+
+    100% {
+        transform: rotate(40deg);
+        background-color: var(--fifty-black);
+    }
+}

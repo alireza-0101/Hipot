@@ -1,0 +1,157 @@
+*, input {
+    transition: 0.5s;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'vazir';
+    direction: rtl;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    background: url(../img/background-login.jpg) rgb(255, 255, 255);
+    background-repeat: no-repeat;
+}
+
+::placeholder {
+    color: #333;
+    opacity: 50%;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 8px;
+}
+
+.box-singup-div {
+    position: relative;
+    top: 22vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 12px 7px #ffffff59;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    width: 360px;
+    height: 400px;
+    gap: 20px;
+    overflow: hidden;
+    user-select: none;
+}
+
+.box-singup-div::after {
+    content: 'هیپوت';
+    font-weight: bold;
+    background-color: #dadada;
+    position: absolute;
+    left: -30px;
+    top: 25px;
+    width: 80px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 15px;
+    font-size: 14px;
+    color: #9c9c9c;
+    cursor: pointer;
+    transform: rotate(-90deg);
+}
+
+.email-input {
+    direction: ltr;
+    background-color: #e7e7e7;
+    border: 0;
+    border-radius: 50px;
+    font-family: 'vazir';
+    width: 100%;
+    height: 50px;
+}
+
+.box-singup-div .username-input {
+    background-color: #e7e7e7;
+    border: 0;
+    border-radius: 50px;
+    font-family: 'vazir';
+    width: 100%;
+    height: 50px;
+}
+
+.box-singup-div .password-2-input {
+    background-color: #e7e7e7;
+    border: 0;
+    border-radius: 50px;
+    font-family: 'vazir';
+    width: 100%;
+    height: 50px;
+}
+
+.submit-btn {
+    bottom: 20px;
+    background: linear-gradient(to left, rgb(255, 96, 96), rgb(88, 85, 255));
+    border: 0;
+    color: #fff;
+    font-family: 'vazir';
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 100%;
+    height: 42px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.submit-btn:hover {
+    opacity: 80%;
+}
+
+.form-inputs {
+    padding: 15px;
+    color: #333;
+    text-align: left;
+    direction: ltr;
+}
+
+.form-inputs::placeholder {
+    text-align: right;
+}
+
+.form-inputs:focus {
+    outline: none;
+}
+
+.form-title {
+    margin-bottom: 20px;
+    color: #707070;
+}
+
+
+.err-or-sucsses-inputs {
+    font-size: 12px;
+    margin-left: 20px;
+    /* color: #ff8b8b; */
+    /* color: #58bb45; */
+    color: #8b8b8b;
+    font-weight: bold;
+}
+
+@media screen and (max-width:500px) {
+    .box-singup-div {
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .box-singup-div {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
